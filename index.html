@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kebijakan Privasi dan Penghapusan Akun GoRentio oleh Gopol Labs." />
+  <title>Kebijakan Privasi GoRentio | Gopol Labs</title>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --primary: #4f46e5;
+      --primary-soft: #eef2ff;
+      --warning-soft: #fff7ed;
+      --border: #e5e7eb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .page {
+      width: min(900px, calc(100% - 32px));
+      margin: 40px auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 42px;
+      box-shadow: 0 10px 35px rgba(15, 23, 42, 0.06);
+    }
+
+    .brand {
+      display: inline-block;
+      margin-bottom: 10px;
+      color: var(--primary);
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(30px, 5vw, 44px);
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin-top: 34px;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    .updated {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .contact-box,
+    .delete-box {
+      border-radius: 14px;
+      padding: 20px;
+      margin: 22px 0;
+    }
+
+    .contact-box {
+      background: var(--primary-soft);
+    }
+
+    .delete-box {
+      background: var(--warning-soft);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      text-decoration: none;
+      opacity: 0.92;
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+        padding: 26px 20px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="brand">Gopol Labs</div>
+    <h1>Kebijakan Privasi GoRentio</h1>
+    <p class="updated">Terakhir diperbarui: 18 September 2026</p>
+
+    <div class="contact-box">
+      <strong>Kontak Privasi</strong><br />
+      <a href="mailto:privacy@gopollabs.my.id">privacy@gopollabs.my.id</a>
+    </div>
+
+    <h2>1. Data dan Tujuan Penggunaan</h2>
+    <p>
+      GoRentio menggunakan nama, email, nomor telepon, alamat, dan wilayah
+      untuk pendaftaran, pengelolaan akun, serta layanan penyewaan.
+      Autentikasi email dan kata sandi ditangani melalui Firebase Authentication.
+    </p>
+    <p>
+      Foto yang dipilih pengguna digunakan sebagai foto profil dan diunggah
+      ke Firebase Storage.
+    </p>
+    <p>
+      Data keanggotaan, booking, dan poin digunakan untuk memproses layanan
+      rental dan reward.
+    </p>
+    <p>
+      Token notifikasi digunakan untuk mengirim pemberitahuan aplikasi.
+    </p>
+
+    <h2>2. Lokasi dan Informasi Cuaca</h2>
+    <p>
+      Jika izin lokasi diberikan, fitur cuaca dapat menggunakan koordinat
+      perangkat untuk menampilkan informasi cuaca melalui Open-Meteo dan
+      menggunakan BigDataCloud untuk mendapatkan nama wilayah.
+    </p>
+    <p>
+      Pengguna dapat menolak atau mencabut izin lokasi melalui pengaturan perangkat.
+    </p>
+
+    <h2>3. Pihak yang Memproses Data</h2>
+    <p>
+      GoRentio menggunakan layanan Firebase untuk autentikasi, penyimpanan
+      data dan foto, fungsi server, serta notifikasi.
+    </p>
+    <p>
+      Pengelola rental terkait dapat memproses informasi yang diperlukan
+      untuk keanggotaan dan pesanan pengguna.
+    </p>
+    <p>
+      Saat pengguna memilih menghubungi rental melalui WhatsApp, aplikasi
+      membuka WhatsApp dengan pesan terkait booking yang telah disiapkan.
+    </p>
+
+    <h2>4. Pilihan Pengguna</h2>
+    <p>
+      Pengguna dapat mengubah informasi profil melalui aplikasi dan mengatur
+      izin lokasi serta notifikasi melalui pengaturan perangkat.
+    </p>
+
+    <h2 id="hapus-akun">5. Penghapusan Akun GoRentio</h2>
+    <div class="delete-box">
+      <p>
+        GoRentio menyediakan fitur <strong>Hapus Akun</strong> pada halaman profil aplikasi.
+      </p>
+      <p>
+        Penghapusan akun dapat ditolak sementara apabila pengguna masih memiliki
+        booking berstatus menunggu konfirmasi, dikonfirmasi, atau aktif.
+      </p>
+      <p>
+        Jika pengguna mengalami kendala menggunakan fitur penghapusan akun di aplikasi,
+        pengguna dapat meminta penghapusan akun melalui email.
+      </p>
+      <p>
+        Kirim email dari alamat email yang terdaftar pada akun GoRentio ke
+        <a href="mailto:privacy@gopollabs.my.id">privacy@gopollabs.my.id</a>
+        dengan subjek <strong>Permintaan Hapus Akun GoRentio</strong>.
+      </p>
+      <p>
+        Cantumkan nama akun dan permintaan penghapusan. Jangan mengirim kata sandi
+        atau kode OTP.
+      </p>
+      <p>
+        Gopol Labs akan melakukan verifikasi kepemilikan akun sebelum penghapusan.
+        Jika terdapat booking aktif, pengguna perlu menyelesaikan booking terlebih dahulu.
+      </p>
+
+      <a
+        class="button"
+        href="mailto:privacy@gopollabs.my.id?subject=Permintaan%20Hapus%20Akun%20GoRentio"
+      >
+        Minta Penghapusan Akun
+      </a>
+    </div>
+
+    <h2>6. Audiens</h2>
+    <p>
+      GoRentio ditujukan bagi pengguna berusia 13 tahun ke atas.
+    </p>
+
+    <h2>7. Kontak</h2>
+    <p>
+      Pertanyaan mengenai privasi atau penggunaan data pada GoRentio dapat dikirim kepada:
+    </p>
+    <p>
+      <strong>Gopol Labs</strong><br />
+      Email:
+      <a href="mailto:privacy@gopollabs.my.id">privacy@gopollabs.my.id</a>
+    </p>
+
+    <h2>8. Pembaruan Kebijakan</h2>
+    <p>
+      Kebijakan privasi ini dapat diperbarui apabila terdapat perubahan pada fitur
+      aplikasi atau cara GoRentio memproses data pengguna.
+    </p>
+
+    <footer>
+      © 2026 Gopol Labs — GoRentio
+    </footer>
+  </main>
+</body>
+</html>
